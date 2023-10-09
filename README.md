@@ -1,24 +1,44 @@
 # art-test
 
-## Project setup
+Ознакомиться с таблицей вы можете по [этой ссылке](https://art-test-psi.vercel.app/)
+
+-   Чтобы переключаться между страницами используйте нумерацию под таблицей.
+-   Для поиска сотрудника используйте строку поиска над таблицей.
+-   Для сортировки нажмите на шапку колонки, отмеченную стрелкой.
+-   В колонке action можно выбрать действие над строкой.
+
+Для установки проекта выполните следующие шаги в терминале:
+
+## 1) Склонируйте репозиторий
+
+```
+npm clone https://github.com/Trorim/art-test.git
+```
+
+## 2) Установите зависимости
+
 ```
 npm install
+
 ```
 
-### Compiles and hot-reloads for development
+### 3) Запустите проект на локальном сервере
+
 ```
 npm run serve
+
 ```
 
-### Compiles and minifies for production
+### Для сборки и минификации
+
 ```
 npm run build
+
 ```
 
-### Lints and fixes files
+### Для исправления файлов
+
 ```
 npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
